@@ -1,0 +1,257 @@
+/* Font: font-family: 'Roboto', sans-serif;
+         font-family: 'Mr Dafoe', cursive;
+
+Farbe: #e7bc0e  / #efefef / #6bc1a3 / #cb91b6 / #7eb8e1 / #000 / #fff
+ */
+
+ @font-face {
+    font-family: SantioBlack;
+    src: url(../fonts/SantioBlack.otf);
+ }
+ @font-face {
+    font-family: SantioBold;
+    src: url(../fonts/SantioBold.otf);
+    }  
+
+ @font-face {
+    font-family: SantioBoldline;
+    src: url(../fonts/SantioBoldline.otf);
+ }
+
+ @font-face {
+    font-family: SantioInline;
+    src: url(../fonts/SantioInline.otf);
+ }
+
+ @font-face {
+    font-family: Santiolight;
+    src: url(../fonts/Santiolight.otf);
+ }
+
+ @font-face {
+    font-family: Santioregular;
+    src: url(../fonts/Santioregular.otf);
+ }
+ 
+/* MAIN START */
+
+ body{
+     margin: 0;
+     font-family: SantioBlack;
+}
+
+ main{
+     background: url(../img/cleo-topper.jpg) center/cover no-repeat fixed;  
+     background-blend-mode: darken; 
+ }
+
+ .top{
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 10%;
+     margin-top: 5px;
+ }
+
+ .top img{
+     width: 35px;
+ }
+
+ main h3, h1{
+    color: white;
+}
+
+.top h3{
+    letter-spacing: 2px;
+    padding-left: 5px;
+    border-bottom: 1px solid #e7bc0e;
+}
+
+.titel{
+    width: 30%;
+    font-size: 2em;
+    margin-top: 15%;
+    margin-left: 15%;
+    letter-spacing: 2px;
+}
+
+ .scroll{
+     font-family:'Mr Dafoe', cursive;
+     color: #e7bc0e;
+     font-size: 2em;
+     margin-left:15% ;
+ }
+
+ .scroll span{
+     margin-left: 15px;
+ }
+
+ .textone{
+     color: #6bc1a3;
+     font-size: 1.5em;
+     width: 40%;
+     letter-spacing: 2px;
+     margin-left: 25%;
+     margin-top: 10%;
+     line-height: 40px;
+ }
+
+ .textone span{
+     background-color: gray;
+     color: white;
+ }
+
+.domestic img{
+    width: 10%;
+}
+
+ .domestic{
+     margin-left: 20%;
+     margin-top: 10%;
+ }
+
+ .domestic h1{
+     font-size: 8em;
+     color:#e7bc0e;
+     margin-bottom: 0;
+ }
+
+ .domestic h3{
+     color: #e7bc0e;
+     font-size: 2em;
+    margin-top: 0;
+ }
+
+ .domestic h3 span{
+     background-color: gray;
+     color: white;
+ }
+
+ .paid img{
+     width: 10%;
+     margin-top: 10%;
+ }
+
+ .paid{
+     margin-left: 20%;   
+ }
+ 
+ .paid h3{
+    color: #cb91b6;
+    font-size: 2em;  
+}
+
+.paid h3 span{
+    background-color: gray;
+    color: white;
+}
+
+.paid h1{
+    font-size: 8em;
+    color:#cb91b6;
+    margin-top: 0;
+}
+
+.insurance img{
+    width: 10%;
+    margin-top: 10%;
+}
+
+.insurance{
+    margin-left: 20%;   
+}
+
+.insurance h3{
+   color: #6bc1a3;
+   font-size: 2em;  
+}
+
+.insurance h3 span{
+   background-color: gray;
+   color: white;
+}
+
+.insurance h1{
+   font-size: 8em;
+   color:#6bc1a3;
+   margin-top: 5%;
+   margin-bottom: 0;
+}
+
+.texttwo{
+    width: 50%;
+    color: #7eb8e1;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    margin-left: 35%;
+    margin-top: 10%;
+    line-height: 40px;
+    padding-bottom: 10%;
+}
+
+.texttwo span{
+    background-color: gray;
+    color: white;
+}
+
+/* SECTION BEACH */
+
+
+.beach{
+    background: url(../img/see.png) center/cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.beach img{
+    margin-top: -12%;
+}
+
+/* SECTION LAST */
+
+.last{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.last h1{
+    color: white;
+    font-size: 5em;
+    width: 45%;
+    margin-top: 0;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+.last button{
+    margin-left: 15%;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 15px 25px 15px 25px;
+    font-size: 2em;
+}
+
+.last button:hover{
+    box-shadow: 5px 5px 1px white;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5em;
+}
+
+footer p span{
+    color: #6bc1a3;
+}
